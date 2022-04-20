@@ -7,11 +7,13 @@ body{
     margin: 15px;
 
 }
-
+main {
+    display: inline;
+}
 h1{
     font-family: Helvetica, sans-serif;
     padding: 10px 20px 10px 20px;
-
+    display: inline;
 }
 
 h2, H4{
@@ -34,7 +36,19 @@ article {
     padding: 10px;
     display:flex;
     justify-content: space-around;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
 
+#main-menu {
+    display: flex;
+    align-items: flex-end;
+}
+
+#Menu li {
+    display:inline;
+    margin-right: 10px;
+}
+
+#Menu ul {
+    padding: 0;
+}
