@@ -1,26 +1,40 @@
+* {
+    border: 1px red solid;
+}
 body{
     background:blanchedalmond;
     padding: 15px;
     margin: 15px;
+
 }
 
 h1{
     font-family: Helvetica, sans-serif;
     padding: 10px 20px 10px 20px;
+
 }
 
-h2, H3, H4{
+h2, H4{
     font-family: 'Trebuchet MS', sans-serif;
-
 }
+
+h3{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-center; 
+}
+
 UL, OL, P{
     font-family: Verdana, sans-serif;
     line-height: 150%;
-  
-}
-section{
-   
-    display: inline;
 
+}
+article {
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    
 }
 
